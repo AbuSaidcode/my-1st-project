@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+     font-family: "Plus Jakarta Sans", sans-serif;
+     box-sizing: border-box;
+}
+
+/* common class */
+
+
+.btn1:hover{
+    background-color: #872BFF;
+    color: #8C8C8C;
+    border: 1px solid #872BFF;
+    transition: .5s;
+}
+
+.btn1{
+    background-color: #872BFF;
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn2{
+    background-color: #FFFEFA;
+    padding: 14px 30px;
+    border-radius: 30px;
+    border-color: #872BFF;
+    font-weight: bold;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+}
+
+ 
+.container{
+     width: 87.5%;
+     margin: 0 auto;
+}
+
+.heading{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.heading h4{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #6A14DA;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.heading h2{
+    font-size: 40px;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.card{
+    background-color: white;
+    /* border: solid red; */
+    padding: 40px;
+    text-align: center;
+    width: 320px;
+    box-shadow: 0 4px 4px #00000030 ;
+    border-radius: 16px;
+}
+
+.card *{
+    margin-bottom: 20px;
+}
+
+.card h3{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.card p {
+    font-size: 16px;
+    color: #0D132190;
+}
+
+.card a{
+    color: black;
+    font-weight: bold;
+}
+
+.project-card{
+    padding: 48px;
+    background-color: #FFFFFF;
+    border: 1PX solid#872BFF;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom:60px;
+}
+
+.project-img img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.project-content *{
+    margin-bottom: 20PX;
+}
+
+.project-content h3{
+font-size: 30px;
+}
+
+.project-content p{
+    color: #0E0E0E75;
+}
+
+.Brands {
+padding: 40px;
+background-color: white;
+box-shadow: 0 4px 4px #00000030 ;
+    border-radius: 16px;
+
+}
+
+
+body {
+    background-color: #FFFEFA;
+}
+
+#hero{
+    /* margin */
+    margin-bottom: 150px;
+    /* padding */
+    padding-top: 100px;
+
+    background: url("image/Hero-bg.png");
+    background-size: 500px;
+}
+
+#hero-container{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    /* gap: 20px; */
+    width: 87.5%;
+    /* background: red; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+#hero-content{
+    
+    padding-bottom: 70px;
+}
+
+#hero-content h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#hero-content h2 span{
+    color: #872BFF;
+}
+
+#hero-content p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+#hero-img image {
+    
+    width: 1000px;
+    vertical-align: middle;
+}
+
+#skill , #projects , #experience
+{
+margin-bottom: 150px;
+}
+
+.company-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.btn-container {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#futar{
+    display: flex;
+   
+}
+
+.box{
+    display: flex;
+    gap: 900px;
+    text-align: center;
+    box-shadow: 0 -5px 15px 5px #00000030;
+    
+    border-top: 1px red;
+    background-color: rgb(228, 227, 226);
+}
+
+.img-icon{
+    display: flex;
+    
+}
+.icon{
+    padding: 30px;
+
+}
+.box-data{
+    padding-top: 40px;
+    padding-left: 20px ;
+}
